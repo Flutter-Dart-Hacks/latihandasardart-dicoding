@@ -1,3 +1,11 @@
+import 'dart:io';
+
+double bacaMasukanPengguna() {
+  stdout.write('Masukkan suhu celcius : ');
+  double celcius = double.parse(stdin.readLineSync() ?? '');
+  return celcius;
+}
+
 // PERBANDINGAN SKALA CELCIUS, REAMUR, KELVIN DAN FAHRENHEIT ADALAH : 5 : 4 : 5 : 9
 
 hitungCelsiusToReamur(String strCelcius) {
