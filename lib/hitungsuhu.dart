@@ -1,6 +1,7 @@
 import 'dart:io';
 
 double bacaMasukanPengguna() {
+  // Membaca dan menulis di Terminal dengan stdin dan stdout
   stdout.write('Masukkan suhu celcius : ');
   double celcius = double.parse(stdin.readLineSync() ?? '');
   return celcius;
