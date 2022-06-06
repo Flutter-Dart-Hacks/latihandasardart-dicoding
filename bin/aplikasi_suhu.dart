@@ -11,4 +11,9 @@ void main(List<String> args) {
   print('Hasil suhu reamur $hasilReamur dan fahrenheit $hasilFahrenheit');
 
   hitungsuhu.parameterOpsional(name: 'Contoh param opsional', age: 20);
+
+  print('Pengerjaan tes');
+  var string = 'Dart';
+  var number = 2.7;
+  print(string + number.toString());
 }
